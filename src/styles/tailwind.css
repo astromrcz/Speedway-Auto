@@ -1,4 +1,7 @@
-@import 'tailwindcss' source(none);
-@source '../**/*.{js,ts,jsx,tsx}';
+@import "tailwindcss";
 
-@import 'tw-animate-css';
+/* Allow Tailwind to scan your source files for utility classes */
+@source "../**/*.{js,ts,jsx,tsx}"; /* */
+
+/* If you are using any specific plugins like tw-animate-css */
+@import "tw-animate-css"; /* */

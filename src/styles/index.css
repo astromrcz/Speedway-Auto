@@ -1,5 +1,7 @@
 @import 'tailwindcss';
-
+/* Import your custom theme and utility overrides */
+@import "./theme.css"; /* */
+@import "./tailwind.css"; /* */
 /* Your global styles here */
 /* Copy from your old project: frontend/src/styles/index.css */
 
